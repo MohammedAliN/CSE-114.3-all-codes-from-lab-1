@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int count = 0;
+    for (int i = 1; i <= 25; i++)
+    {
+        if (i % 5 == 0)
+        {
+            count++;
+        }
+    }
+    printf("count = %d", count);
+    return 0;
+}
